@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
     <!-- Make sure tools:overrideLibrary is properly formatted inside <uses-sdk /> -->
 <!-- Combined single uses-sdk tag -->
-    <uses-sdk tools:overrideLibrary="com.nextgenmusic.player.compose, androidx.compose.material3, androidx.compose.material, androidx.compose.material.icons" />
+    <uses-sdk tools:overrideLibrary="com.nextgenmusic.player.compose, androidx.compose.material3, androidx.compose.material, androidx.compose.material.icons, androidx.compose.material.ripple" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
     <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
