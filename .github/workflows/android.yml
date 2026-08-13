@@ -25,7 +25,7 @@ jobs:
       - name: Install Android SDK
         run: yes | sdkmanager --licenses >/dev/null || true
       - name: Build debug
-        run: ./gradlew assembleDebug
+        run: chmod +x ./gradlew assembleDebug     
       - name: Unit tests
         run: ./gradlew testDebugUnitTest
       - uses: actions/upload-artifact@v4
