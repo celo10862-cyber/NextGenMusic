@@ -54,6 +54,8 @@ jobs:
         run: |
           test -n "$KEYSTORE_B64" || { echo "ANDROID_KEYSTORE_BASE64 is required for release builds"; exit 1; }
           echo "$KEYSTORE_B64" | base64 --decode > "$RUNNER_TEMP/release.keystore"
+      - name: Make Gradle wrapper executable
+        run: chmod +x  gradlew     
       - name: Build signed release
         env:
           RELEASE_KEYSTORE_PATH: ${{ runner.temp }}/release.keystore
