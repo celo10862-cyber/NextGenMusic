@@ -8,7 +8,7 @@ Next Gen Music is a local-first Android music experience for phones, tablets, an
 - JDK 17
 - Android SDK Platform 36 and Build Tools installed
 
-The application id is `com.nextgenmusic.player`. The minimum SDK is API 19 and the target/compile SDK is 36. The main navigation uses XML views to keep the minimum runtime viable; the included Compose entry point is available for API 21+ feature surfaces.
+The application id is `com.nextgenmusic.player`. The application minimum SDK is API 19 and the target/compile SDK is 36. The main navigation uses XML views to keep the minimum runtime viable. The included `compose-ui` library is an API 21+ Compose surface and is intentionally kept separate because Jetpack Compose does not support API 19.
 
 ## Build
 

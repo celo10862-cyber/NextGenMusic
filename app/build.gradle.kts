@@ -1,7 +1,6 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    id("org.jetbrains.kotlin.plugin.compose")
 }
 
 android {
@@ -50,7 +49,6 @@ android {
         jvmTarget = "17"
     }
     buildFeatures {
-        compose = true
         buildConfig = true
     }
     packaging {
@@ -66,13 +64,8 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7")
     implementation("androidx.recyclerview:recyclerview:1.3.2")
-    implementation("androidx.constraintlayout:constraintlayout:2.2.0")
     implementation("androidx.media:media:1.7.0")
     implementation("androidx.documentfile:documentfile:1.0.1")
-    implementation("androidx.compose.ui:ui:1.7.6")
-    implementation("androidx.compose.material3:material3:1.3.1")
-    implementation("androidx.compose.ui:ui-tooling-preview:1.7.6")
-    debugImplementation("androidx.compose.ui:ui-tooling:1.7.6")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")
     implementation("com.google.android.material:material:1.12.0")
     implementation("androidx.test:core-ktx:1.6.1")
