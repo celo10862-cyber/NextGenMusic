@@ -91,7 +91,7 @@ object UiKit {
         setHintTextColor(Color.rgb(147, 162, 194))
         setTextColor(Color.rgb(241, 245, 255))
         textSize = 16f
-        singleLine = true
+        setSingleLine(true)
         setPadding(dp(context, 14), 0, dp(context, 14), 0)
         background = GradientDrawable().apply {
             cornerRadius = dp(context, 14).toFloat()
