@@ -1,0 +1,6 @@
+-keep class com.nextgenmusic.player.** { *; }
+-keepclassmembers class * extends android.app.Service { *; }
+-keepclassmembers class * implements android.os.Parcelable { *; }
+-keepattributes *Annotation*
+-dontwarn androidx.compose.**
+-dontwarn kotlinx.coroutines.**

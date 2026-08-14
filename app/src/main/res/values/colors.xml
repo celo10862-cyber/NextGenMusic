@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ngm_background">#070A12</color>
+    <color name="ngm_surface">#101525</color>
+    <color name="ngm_surface_elevated">#18223A</color>
+    <color name="ngm_cyan">#56E7FF</color>
+    <color name="ngm_purple">#B58CFF</color>
+    <color name="ngm_text">#F1F5FF</color>
+    <color name="ngm_muted">#93A2C2</color>
+    <color name="ngm_error">#FF7189</color>
+    <color name="ngm_success">#5DE1A7</color>
+</resources>
